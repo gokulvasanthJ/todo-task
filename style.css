@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction:  column;
+}
+li{
+    width: 200px;
+    height: 100px;
+    background-color:rgb(145, 216, 222);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction:  column;
+    text-align: center;
+    
+    padding: 5px;
+     text-wrap: pretty;
+     border-radius: 3px;
+     border-style: none;
+    
+}
+ul>li{
+    color: rgb(96, 89, 89);
+    font-size: 20px;
+    font-weight: 600;
+   
+    
+}
+
+li>button{
+    width: 80px;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+    background-color:rgb(195, 247, 229);
+    border-radius: 3px;
+    border-style: none;
+    color: rgb(96, 89, 89);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top:35px ;
+    margin-bottom:-5px ;
+}
+#myBtn{
+    width: 100px;
+    height: 40px;
+    padding: 3px;
+    text-align: center;
+    background-color:rgb(5, 103, 64);
+    border-radius: 3px;
+    border-style: none;
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom:5px ;
+    margin-left: 30px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(145, 216, 222);
+    border-radius: 3px;
+    border-style: none;
+    color: rgb(84, 76, 76);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom:5px ;
+    
+}
+
+#divcontainer{
+    margin-bottom: 50px;
+}
